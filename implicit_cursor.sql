@@ -13,7 +13,7 @@ INSERT INTO accounts (account_no, status, last_transaction) VALUES
 
 -- PL/SQL Block to update accounts
 DELIMITER //
-
+-- Piyush Choudhari TEAIDA26
 CREATE PROCEDURE ActivateInactiveAccounts()
 BEGIN
     -- Update accounts that have been inactive for 365 days or more

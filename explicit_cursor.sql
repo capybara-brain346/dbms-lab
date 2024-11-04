@@ -20,7 +20,7 @@ INSERT INTO EMP (E_no, Salary) VALUES
 
 -- PL/SQL Block to update salary and log increments
 DELIMITER //
-
+-- Piyush Choudhari TEAIDA26
 CREATE PROCEDURE IncreaseSalaryAndLog()
 BEGIN
     DECLARE emp_no INT;
